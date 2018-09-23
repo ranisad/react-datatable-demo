@@ -52,6 +52,8 @@ class App extends Component {
     this.nextData = this.nextData.bind(this);
     this.hitApi = this.hitApi.bind(this);
     this.handleCellClick = this.handleCellClick.bind(this);
+    this.handleClickOpen=this.handleClickOpen.bind(this);
+    this.handleClose=this.handleClose.bind(this)
   }
 
   handleCellClick(e){
